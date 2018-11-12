@@ -1,18 +1,18 @@
 source "http://rubygems.org"
 
-gem "rails", ">3.0"
+gem "rails", ">= 3.1.3"
 group :test do
   gem "capybara", "~>0.4"
   gem "sqlite3-ruby", :require => "sqlite3"
   gem "rspec", "~>2.3"
-  gem "rspec-rails", "~>2.3"
+  gem "rspec-rails", "~> 2.8", ">= 2.8.1"
 end
 group :development do
   gem 'jeweler',  '~>1.5'
 end
 
 gem "carrierwave", "~>0.5"
-gem "activerecord", ">3.0"
+gem "activerecord", ">= 3.1.3"
 gem "activesupport", ">3.0"
 gem "mime-types", "~>1.16"
 gem "rmagick", :require => "RMagick"
