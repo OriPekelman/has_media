@@ -1,11 +1,11 @@
 source "http://rubygems.org"
 
-gem "rails", ">3.0"
+gem "rails", ">= 5.2.4.6"
 group :test do
   gem "capybara", "~>0.4"
   gem "sqlite3-ruby", :require => "sqlite3"
   gem "rspec", "~>2.3"
-  gem "rspec-rails", "~>2.3"
+  gem "rspec-rails", "~> 2.8", ">= 2.8.1"
 end
 group :development do
   gem 'jeweler',  '~>1.5'
