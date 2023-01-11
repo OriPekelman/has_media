@@ -8,7 +8,7 @@ group :test do
   gem "rspec-rails", "~>2.3"
 end
 group :development do
-  gem 'jeweler',  '~>1.5'
+  gem 'jeweler', '~> 1.6', '>= 1.6.4'
 end
 
 gem "carrierwave", "~>0.5"
