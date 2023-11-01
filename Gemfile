@@ -15,7 +15,7 @@ gem "carrierwave", "~>0.5"
 gem "activerecord", ">3.0"
 gem "activesupport", ">3.0"
 gem "mime-types", "~>1.16"
-gem "rmagick", :require => "RMagick"
+gem "rmagick", ">= 5.3.0", :require => "RMagick"
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
