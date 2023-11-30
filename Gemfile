@@ -11,7 +11,7 @@ group :development do
   gem 'jeweler',  '~>1.5'
 end
 
-gem "carrierwave", "~>0.5"
+gem "carrierwave", "~> 2.2", ">= 2.2.5"
 gem "activerecord", ">3.0"
 gem "activesupport", ">3.0"
 gem "mime-types", "~>1.16"
