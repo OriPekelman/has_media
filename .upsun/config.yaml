@@ -1,6 +1,6 @@
 applications:
   noop:
-    stack: ["python@3.7"]
+    type: "python:3.7"
     web:
       commands:
         start: sleep infinity
