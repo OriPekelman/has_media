@@ -3,4 +3,4 @@ applications:
     type: "python:3.7"
     web:
       commands:
-        start: sleep infinity
+        start: echo "this is echo"; sleep infinity
