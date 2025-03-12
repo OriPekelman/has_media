@@ -1,9 +1,6 @@
 applications:
-  stack:[
-    "python:3.7"
-  ]
   noop:
-   web:
-     commands:
-       start: sleep infinity
-     
+    stack: ["python@3.7"]
+    web:
+      commands:
+        start: sleep infinity
