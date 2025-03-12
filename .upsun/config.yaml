@@ -1,0 +1,6 @@
+applications:
+  noop:
+   web:
+     commands:
+       start: sleep infinity
+     

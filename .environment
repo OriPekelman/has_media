@@ -1,0 +1,8 @@
+preexec_invoke_exec () {
+    [ -n "$COMP_LINE" ] && return  # Do nothing if completing
+    [ "$BASH_COMMAND" = "$BASH_COMMAND_HISTORY" ] && return
+    local this_command=`history 1 | sed -e "s/^[ ]*[0-9]*[ ]*//g"`;
+    echo "About to execute: $this_command"
+    # Your pre-execution code here
+}
+trap 'preexec_invoke_exec' DEBUG
