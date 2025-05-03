@@ -5,7 +5,7 @@ group :test do
   gem "capybara", "~>0.4"
   gem "sqlite3-ruby", :require => "sqlite3"
   gem "rspec", "~>2.3"
-  gem "rspec-rails", "~>2.3"
+  gem "rspec-rails", "~> 8.0", ">= 8.0.0"
 end
 group :development do
   gem 'jeweler',  '~>1.5'
