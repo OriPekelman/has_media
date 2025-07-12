@@ -1,17 +1,17 @@
 source "http://rubygems.org"
 
-gem "rails", ">3.0"
+gem "rails", ">= 7.1.0"
 group :test do
-  gem "capybara", "~>0.4"
+  gem "capybara", "~> 1.0", ">= 1.0.0"
   gem "sqlite3-ruby", :require => "sqlite3"
   gem "rspec", "~>2.3"
-  gem "rspec-rails", "~>2.3"
+  gem "rspec-rails", "~> 2.9", ">= 2.9.0"
 end
 group :development do
-  gem 'jeweler',  '~>1.5'
+  gem 'jeweler', '~> 1.7', '>= 1.7.0'
 end
 
-gem "carrierwave", "~>0.5"
+gem "carrierwave", "~> 0.6", ">= 0.6.0"
 gem "activerecord", ">3.0"
 gem "activesupport", ">3.0"
 gem "mime-types", "~>1.16"
